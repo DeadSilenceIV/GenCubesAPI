@@ -4,7 +4,7 @@ import org.bukkit.Location;
 import org.bukkit.inventory.Inventory;
 import us.lynuxcraft.deadsilenceiv.gencubes.gencube.GenCube;
 
-import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 
@@ -14,7 +14,7 @@ public class CubeManager {
 
     public void unRegister(GenCube cube){}
 
-    public List<GenCube> getCubesByOwner(UUID uuid){
+    public Set<GenCube> getCubesByOwner(UUID uuid){
         return null;
     }
 

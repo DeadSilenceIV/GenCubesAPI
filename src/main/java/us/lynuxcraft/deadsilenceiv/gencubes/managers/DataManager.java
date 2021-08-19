@@ -4,8 +4,8 @@ import org.bukkit.inventory.ItemStack;
 import us.lynuxcraft.deadsilenceiv.gencubes.BaseBlock;
 import us.lynuxcraft.deadsilenceiv.gencubes.GenerationBlock;
 import us.lynuxcraft.deadsilenceiv.gencubes.gencube.InventoryType;
+import us.lynuxcraft.deadsilenceiv.gencubes.services.edit.BuildType;
 import us.lynuxcraft.deadsilenceiv.gencubes.services.edit.QuantityType;
-import us.lynuxcraft.deadsilenceiv.gencubes.services.edit.RebuildType;
 
 import java.util.List;
 import java.util.Set;
@@ -32,7 +32,7 @@ public class DataManager {
         return 0;
     }
 
-    public RebuildType getRegenerationType(String type){
+    public BuildType getRegenerationType(String type){
         return null;
     }
 
@@ -68,7 +68,7 @@ public class DataManager {
         return 0;
     }
 
-    public RebuildType getRebuildType(String type){
+    public BuildType getRebuildType(String type){
         return null;
     }
 
@@ -92,7 +92,7 @@ public class DataManager {
         return 0;
     }
 
-    public RebuildType getBuildType(String type){
+    public BuildType getBuildType(String type){
         return null;
     }
 

@@ -2,11 +2,11 @@ package us.lynuxcraft.deadsilenceiv.gencubes.managers;
 
 import us.lynuxcraft.deadsilenceiv.gencubes.skyblock.SkyBlockPlugin;
 
-import java.util.List;
+import java.util.Set;
 
 public class SkyBlockManager {
 
-    public List<SkyBlockPlugin> getPlugins(){
+    public Set<SkyBlockPlugin> getPlugins(){
         return null;
     }
 
