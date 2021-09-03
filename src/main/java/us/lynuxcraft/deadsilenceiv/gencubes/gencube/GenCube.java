@@ -5,6 +5,7 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import us.lynuxcraft.deadsilenceiv.gencubes.services.edit.*;
 import us.lynuxcraft.deadsilenceiv.gencubes.skyblock.Island;
+import us.lynuxcraft.deadsilenceiv.gencubes.utils.region.Region;
 import us.lynuxcraft.deadsilenceiv.gencubes.utils.region.RegionBlock;
 
 import java.util.*;
@@ -163,6 +164,24 @@ public class GenCube {
     }
 
     /**
+     * Gets the main {@link Region} of the cube.
+     *
+     * @return the main region instance.
+     */
+    public Region getMainRegion(){
+        return null;
+    }
+
+    /**
+     * Gets the generation {@link Region} of the cube.
+     *
+     * @return the generation region instance.
+     */
+    public Region getGenerationRegion(){
+        return null;
+    }
+
+    /**
      * Checks if the specified location is at the border of the cube.
      *
      * @param location the location to be checked
@@ -189,7 +208,7 @@ public class GenCube {
     /**
      * Checks if the cube regeneration process is currently running.
      *
-     * @return true if is running, false otherwise.
+     * @return true if it is running, false otherwise.
      */
     private boolean isRunning(){
         return false;
