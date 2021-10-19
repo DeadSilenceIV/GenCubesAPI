@@ -43,6 +43,6 @@ public class SkyBlockCubeRemoveEvent extends Event implements Cancellable{
         ISLAND_DELETION,
         ISLAND_MEMBER_KICK
     }
-    
+
 }
 
